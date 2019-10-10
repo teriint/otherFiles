@@ -1,0 +1,176 @@
+1
+00:00:02,210 --> 00:00:09,050
+What do we talk about react or also about angular and view as a side note we also have to keep in mind
+
+2
+00:00:09,140 --> 00:00:14,620
+that we can essentially bolt two kinds of Web applications with all these libraries and frameworks.
+
+3
+00:00:14,750 --> 00:00:18,980
+We can't build a single page application or a multi-page application.
+
+4
+00:00:18,980 --> 00:00:22,400
+Now what's the difference in a single page application.
+
+5
+00:00:22,400 --> 00:00:29,540
+We only get back one single file byte a server and we get back to fall at the first time to use a wizard
+
+6
+00:00:29,600 --> 00:00:31,570
+to page sort of first time to use a wizard.
+
+7
+00:00:31,580 --> 00:00:40,430
+Exxon-Mobile dot com Deira ofter everything is managed with javascript with re-act the entire page consists
+
+8
+00:00:40,520 --> 00:00:45,770
+of components which are rendered and handled by javascript.
+
+9
+00:00:46,070 --> 00:00:53,150
+On the other hand in a multi-page application we get back multiple HMO pages where each page has to
+
+10
+00:00:53,150 --> 00:00:54,680
+content for a given route.
+
+11
+00:00:54,740 --> 00:01:02,090
+Given you are l we visited for example or come an example the com slash users we get back to different
+
+12
+00:01:02,090 --> 00:01:02,630
+pages.
+
+13
+00:01:02,630 --> 00:01:04,370
+That's important.
+
+14
+00:01:04,370 --> 00:01:10,550
+Now on multi-page applications we might also use react but only to create little widgets.
+
+15
+00:01:10,580 --> 00:01:17,570
+So to say so individually contained components we dump into that page but not the entire page it's managed
+
+16
+00:01:17,570 --> 00:01:18,880
+by react.
+
+17
+00:01:18,890 --> 00:01:24,410
+We also see this on some pages but the more popular approach these days is to single page application
+
+18
+00:01:24,410 --> 00:01:30,830
+approach because if you manage the entire page with javascript you never have to go back to the server
+
+19
+00:01:30,860 --> 00:01:32,030
+and reload the page.
+
+20
+00:01:32,180 --> 00:01:37,850
+And that is an amazing user experience because everything happens instantly and even if the user needs
+
+21
+00:01:37,850 --> 00:01:44,300
+to wait you're showing a spinner or you're still presenting a reactive web app you're not just showing
+
+22
+00:01:44,570 --> 00:01:47,620
+a loading page or the user can't do anything.
+
+23
+00:01:48,020 --> 00:01:54,680
+So in single page applications our page is bulked up with components and every component is a re-act
+
+24
+00:01:54,680 --> 00:02:03,740
+component and the entire page also is managed by a rude re-act component and is just under reacts control
+
+25
+00:02:04,040 --> 00:02:06,480
+in the multi-page application the other hand.
+
+26
+00:02:06,740 --> 00:02:13,550
+We also could split up our app into theoretical components but actually a lot of the page is just going
+
+27
+00:02:13,550 --> 00:02:19,740
+to be normal HVM and C is US code and some widgets we dump in like an image gallery or something like
+
+28
+00:02:19,740 --> 00:02:22,290
+that is managed by react.
+
+29
+00:02:22,430 --> 00:02:30,210
+So the entire page is not under-react control the individual widgets don't know of each other's existence.
+
+30
+00:02:30,250 --> 00:02:36,080
+Therefore in the single application case which is the case we'll cover indice course we typically only
+
+31
+00:02:36,080 --> 00:02:43,070
+have one re-act Dom render call this method you saw in the previous lectures where we trade our first
+
+32
+00:02:43,070 --> 00:02:44,120
+app.
+
+33
+00:02:44,120 --> 00:02:49,970
+Now we only need one because we have one root app component there which is mounted to the DOM which
+
+34
+00:02:49,970 --> 00:02:56,090
+hosts all of her re-act components in a multi-page application we would typically call react on render
+
+35
+00:02:56,090 --> 00:03:00,490
+more often to render our different components in different places of the app.
+
+36
+00:03:00,530 --> 00:03:06,230
+You saw that react on render allows you to pick a place in your HMO code where you want to render your
+
+37
+00:03:06,230 --> 00:03:13,220
+app and therefore you have these widgets which don't know of each other's existence.
+
+38
+00:03:13,220 --> 00:03:15,880
+Now you can build such an application too.
+
+39
+00:03:15,980 --> 00:03:18,950
+And do you react code you write won't differ.
+
+40
+00:03:18,980 --> 00:03:21,120
+So discours actually covers both.
+
+41
+00:03:21,260 --> 00:03:27,260
+But I will focus on the single page application case since that also allows us to use some libraries
+
+42
+00:03:27,260 --> 00:03:28,750
+like re-act router.
+
+43
+00:03:28,820 --> 00:03:34,500
+It is the most popular way of creating web apps these days and all also the approach.
+
+44
+00:03:34,550 --> 00:03:36,230
+I can only recommend to you.
+

@@ -1,0 +1,152 @@
+1
+00:00:02,170 --> 00:00:05,940
+So let's get started with re-act what why and how.
+
+2
+00:00:06,160 --> 00:00:08,900
+Let's start with the what is re-act question.
+
+3
+00:00:08,980 --> 00:00:15,910
+And let me cite a phrase from the official reac page reactor's of javascript library for Boulding user
+
+4
+00:00:15,940 --> 00:00:17,110
+interfaces.
+
+5
+00:00:17,110 --> 00:00:19,910
+Now that's a nice sentence but what does it mean.
+
+6
+00:00:19,930 --> 00:00:23,710
+The first important part is the javascript library part.
+
+7
+00:00:23,740 --> 00:00:25,320
+It is a javascript library.
+
+8
+00:00:25,330 --> 00:00:32,360
+It is about building javascript driven apps re-act apps run in the browser that don't run on the server.
+
+9
+00:00:32,380 --> 00:00:36,440
+They run in the browser and that gives us a great advantage.
+
+10
+00:00:36,460 --> 00:00:39,980
+Things happen instantly since they happen to user's browser.
+
+11
+00:00:40,060 --> 00:00:45,850
+We don't have to wait for a server response to get a new page or to render something new.
+
+12
+00:00:45,850 --> 00:00:47,980
+Do you have an important part in that sentence.
+
+13
+00:00:47,980 --> 00:00:55,750
+Is the user interface as part user interfaces are basically what the user sees and reacts is all about
+
+14
+00:00:55,750 --> 00:00:58,710
+using components for building these.
+
+15
+00:00:58,810 --> 00:01:03,690
+If you think about it you can split up any web page into components.
+
+16
+00:01:03,700 --> 00:01:04,750
+Here's an example.
+
+17
+00:01:04,750 --> 00:01:11,200
+This was just any random web page we can think of we might have this header area a side bar and then
+
+18
+00:01:11,200 --> 00:01:13,180
+on the right some content.
+
+19
+00:01:13,180 --> 00:01:16,330
+Now we clearly can split this up into components.
+
+20
+00:01:16,450 --> 00:01:23,660
+We would have a head or a component a sidebar component and then a headline in the article content component.
+
+21
+00:01:24,040 --> 00:01:28,480
+Now why is thinking like it is important or useful.
+
+22
+00:01:28,480 --> 00:01:36,670
+Because if we split up our web app or web site into such components we can build these building blocks
+
+23
+00:01:36,670 --> 00:01:41,460
+these components as contained pieces of code.
+
+24
+00:01:41,560 --> 00:01:45,960
+We don't have to build our entire web page as one bigger picture.
+
+25
+00:01:46,000 --> 00:01:48,730
+We can build all these tiny things on their own.
+
+26
+00:01:48,730 --> 00:01:51,040
+This of course makes working in teams easier.
+
+27
+00:01:51,130 --> 00:01:57,850
+But even if we're working alone it makes it easy for us to keep our code manageable if we change the
+
+28
+00:01:57,850 --> 00:01:59,150
+headline later on.
+
+29
+00:01:59,170 --> 00:02:04,810
+We only have to go into debt component and update it and we don't have to find that code on our entire
+
+30
+00:02:04,810 --> 00:02:06,610
+web page code.
+
+31
+00:02:06,610 --> 00:02:12,700
+We all can easily reuse components then if we have a list item component and we want to output a list
+
+32
+00:02:12,760 --> 00:02:20,070
+of these well list items then we only have to write the code once and can then easily reuse it because
+
+33
+00:02:20,170 --> 00:02:21,350
+that's important.
+
+34
+00:02:21,370 --> 00:02:29,870
+Riette components can be thought of as custom HVM elements in the end you're just writing custom HVM
+
+35
+00:02:29,870 --> 00:02:38,110
+mail elements does not react about and it therefore solves the problem of having to build complex user
+
+36
+00:02:38,110 --> 00:02:46,840
+interfaces with what HLL and Javascript gives you by writing maintainable manageable and reusable pieces
+
+37
+00:02:47,110 --> 00:02:51,840
+of that code which you can throw into your web app wherever you need to use it.
+
+38
+00:02:51,850 --> 00:02:53,460
+Let's have a look at some examples.
+

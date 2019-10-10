@@ -1,0 +1,144 @@
+1
+00:00:02,210 --> 00:00:04,030
+So let's get started with that course.
+
+2
+00:00:04,070 --> 00:00:09,200
+But first I want to explain you how you can get the most out of this course.
+
+3
+00:00:09,200 --> 00:00:14,950
+Obviously you watch the videos and I highly recommend that you all to code along right.
+
+4
+00:00:14,960 --> 00:00:16,260
+Decode yourself.
+
+5
+00:00:16,400 --> 00:00:18,640
+This is how you learn the most.
+
+6
+00:00:18,650 --> 00:00:21,110
+Additionally check my source code.
+
+7
+00:00:21,230 --> 00:00:27,170
+If you are encountering issues you can find it attached to the end of each module and also to a lot
+
+8
+00:00:27,170 --> 00:00:34,170
+of lectures for all the module and I do provide the source code because sometimes it's just a tiny typo
+
+9
+00:00:34,580 --> 00:00:39,770
+and if you don't run my source code and compare it to yours you won't be able to find out what's wrong
+
+10
+00:00:39,770 --> 00:00:44,360
+in your code and get a deeper understanding of why it went wrong.
+
+11
+00:00:44,360 --> 00:00:47,640
+Also consider D many hints and things.
+
+12
+00:00:47,660 --> 00:00:50,970
+I will teach you in the debugging section of this course.
+
+13
+00:00:51,080 --> 00:00:56,560
+There I will teach you how to handle re-act errors and how to react to them and fix them.
+
+14
+00:00:56,750 --> 00:00:59,470
+Definitely something you have to know how to do.
+
+15
+00:00:59,540 --> 00:01:04,460
+So use that knowledge you gain there to fix any issues you encounter.
+
+16
+00:01:04,460 --> 00:01:10,070
+Now if you're stuck and you can't find error ask in the Q and A section.
+
+17
+00:01:10,070 --> 00:01:13,940
+My team and I are more than happy to help you there but that's important.
+
+18
+00:01:13,940 --> 00:01:15,500
+Don't just ask there.
+
+19
+00:01:15,590 --> 00:01:17,360
+Also answered there.
+
+20
+00:01:17,360 --> 00:01:19,970
+I'm not saying this because I don't want to answer your questions.
+
+21
+00:01:20,000 --> 00:01:25,220
+I will but if you answer you'll learn way more than if you ask.
+
+22
+00:01:25,220 --> 00:01:27,740
+Asking is so simple but answering is hard.
+
+23
+00:01:27,770 --> 00:01:29,580
+And you can't go wrong there.
+
+24
+00:01:29,810 --> 00:01:32,850
+Even if your answer is wrong no one is going to kill you.
+
+25
+00:01:32,870 --> 00:01:39,380
+Instead you're going to learn if people correct you and answering forces you to think about a problem
+
+26
+00:01:39,440 --> 00:01:40,820
+and find a solution.
+
+27
+00:01:40,850 --> 00:01:47,630
+If you really want to become a great re-act developer you have to solve problems and answering the Q
+
+28
+00:01:47,630 --> 00:01:55,150
+and A section is a good way of practicing just that and finally practice practice practice.
+
+29
+00:01:55,160 --> 00:01:56,540
+It's as easy as that.
+
+30
+00:01:56,630 --> 00:02:00,390
+Even after you've finished this course you've got to practice the things you've learned.
+
+31
+00:02:00,530 --> 00:02:07,850
+You have to build your own demo projects set your own challenges Dudi exercises from this course alter
+
+32
+00:02:07,940 --> 00:02:11,630
+the code you'll learn in this course practice react.
+
+33
+00:02:11,900 --> 00:02:17,900
+If you follow these steps and follow through this entire course you'll be an awesome re-act developer
+
+34
+00:02:18,320 --> 00:02:20,410
+and you'll be able to apply for chops.
+
+35
+00:02:20,420 --> 00:02:23,850
+Become a re-act freelancer whatever you want with dad.
+
+36
+00:02:24,020 --> 00:02:27,520
+Let's dive into react and learn how it works.
+

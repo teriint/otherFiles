@@ -1,0 +1,736 @@
+1
+00:00:02,260 --> 00:00:07,040
+Now do we know what to react actually is it's time to get our hands dirty.
+
+2
+00:00:07,070 --> 00:00:14,900
+And for that I was a code Penn Dot I O that is like our web editor which allows us to write very simple
+
+3
+00:00:14,960 --> 00:00:20,120
+HVM LCS and Javascript apps or really more like a playground.
+
+4
+00:00:20,150 --> 00:00:23,570
+We won't really use that to build real projects in this course.
+
+5
+00:00:23,630 --> 00:00:29,730
+We will use a local set up for that but it is great to dive into react so on codependent.
+
+6
+00:00:29,810 --> 00:00:36,450
+I know you can click on create and create a so-called pen that is simply a workspace where you can write
+
+7
+00:00:36,500 --> 00:00:39,330
+h t m l c s s and Javascript code.
+
+8
+00:00:39,350 --> 00:00:44,150
+Now in this editor you've got three areas for H M L C S S and Javascript.
+
+9
+00:00:44,150 --> 00:00:47,830
+And now let's write a very simple application.
+
+10
+00:00:47,870 --> 00:00:54,650
+A demo to see how we write something with normal HVM all javascript and so on and how we then add react
+
+11
+00:00:54,680 --> 00:00:59,440
+to maybe have an easier time creating such an application for that.
+
+12
+00:00:59,440 --> 00:01:05,210
+And the HVM part of this editor ultrathin you death and you can quickly create this but typing Dev and
+
+13
+00:01:05,210 --> 00:01:06,160
+hitting tab.
+
+14
+00:01:06,170 --> 00:01:08,250
+This will automatically expand this.
+
+15
+00:01:08,540 --> 00:01:12,890
+And then there I will now add h one tech and some of the output.
+
+16
+00:01:12,900 --> 00:01:19,210
+Max my name and below to the paragraph raise say your age 28.
+
+17
+00:01:19,220 --> 00:01:20,050
+Does is my age.
+
+18
+00:01:20,060 --> 00:01:22,450
+And of course feel free to use your data here.
+
+19
+00:01:22,490 --> 00:01:24,950
+So this now leads to the output below.
+
+20
+00:01:24,980 --> 00:01:27,320
+It updates automatically.
+
+21
+00:01:27,320 --> 00:01:29,820
+Now let's quickly give to some styling.
+
+22
+00:01:29,900 --> 00:01:37,310
+Let's simply give Steve maybe a class of let's say person the name is up to you and add this person
+
+23
+00:01:37,310 --> 00:01:42,260
+C as this class with some normal see is US code where I simply give this let's say a border.
+
+24
+00:01:42,320 --> 00:01:53,150
+One pixel solid and does great with CCC and a box shadow of 0 2 pixels 2 pixels and lets say the same
+
+25
+00:01:53,150 --> 00:01:53,520
+gray.
+
+26
+00:01:53,570 --> 00:01:58,840
+Let's maybe lose us use a slightly brighter one here e.
+
+27
+00:01:58,880 --> 00:02:00,010
+For the border.
+
+28
+00:02:00,230 --> 00:02:08,240
+Let's not also give it as a width of let's say 200 pixels and the padding of 20 pixels and now we have
+
+29
+00:02:08,240 --> 00:02:11,760
+this card like look you see below there.
+
+30
+00:02:11,870 --> 00:02:17,990
+Now that is such a person card information holding information about a person let's say.
+
+31
+00:02:18,290 --> 00:02:27,830
+We can also said is to display in line block and give it a margin of 10 pixels because now what I can
+
+32
+00:02:27,830 --> 00:02:36,750
+do is I can of course replicate this and add a second person let's say Manue who has age of 29 that's
+
+33
+00:02:36,750 --> 00:02:37,880
+my colleague.
+
+34
+00:02:38,280 --> 00:02:45,930
+So now we got these two person cards and you could easily think of this as normal web application where
+
+35
+00:02:45,930 --> 00:02:52,320
+you output some information about users or about the team behind a tree or blog you're creating something
+
+36
+00:02:52,320 --> 00:02:53,150
+like that.
+
+37
+00:02:53,310 --> 00:02:56,110
+We're using only team Eliseus s here.
+
+38
+00:02:56,250 --> 00:02:59,370
+Now we can already see one limitation kind of.
+
+39
+00:02:59,580 --> 00:03:04,150
+We're always reusing the same HMO code here.
+
+40
+00:03:04,320 --> 00:03:06,660
+Now that isn't too problematic here.
+
+41
+00:03:06,780 --> 00:03:11,610
+It would be more problematic if we would do something with each of these snippets with javascript even
+
+42
+00:03:12,000 --> 00:03:16,800
+but even without that we can think of this part here as a component.
+
+43
+00:03:16,860 --> 00:03:23,290
+Does person death always is structured in the same way just the data inside of it varies.
+
+44
+00:03:23,310 --> 00:03:29,720
+This is where re-act comes in though reactions to most as we connect is to javascript logic too.
+
+45
+00:03:29,730 --> 00:03:34,430
+But still we can already use react to create reusable components here.
+
+46
+00:03:34,500 --> 00:03:36,300
+For that let's add react.
+
+47
+00:03:36,300 --> 00:03:41,430
+I'm going to shrink this series as part a tiny bit and any javascript area.
+
+48
+00:03:41,550 --> 00:03:44,020
+First of all have to import react.
+
+49
+00:03:44,330 --> 00:03:51,060
+You can click on that your icon next to javascript and then you can download or import some external
+
+50
+00:03:51,060 --> 00:03:55,780
+javascript libraries and re-act is such an external library.
+
+51
+00:03:55,800 --> 00:04:02,880
+Actually it's so popular that Ancoats pen you can go to the quick and drop down and simply scroll to
+
+52
+00:04:03,000 --> 00:04:04,230
+react.
+
+53
+00:04:04,230 --> 00:04:05,440
+And this will add it.
+
+54
+00:04:05,440 --> 00:04:08,030
+Now here it adds version 15 Datsik start.
+
+55
+00:04:08,030 --> 00:04:12,440
+One might differ at the point of time you're viewing this in this course.
+
+56
+00:04:12,450 --> 00:04:18,570
+I will cover work in 16 so you are learning the latest react and then the local setup will use in this
+
+57
+00:04:18,570 --> 00:04:21,390
+course will also use dead latest react with.
+
+58
+00:04:21,420 --> 00:04:27,600
+No worries here however we're using an older one but for the demo here this does not matter at all.
+
+59
+00:04:27,600 --> 00:04:30,720
+We also need to quick and react Dom.
+
+60
+00:04:30,810 --> 00:04:37,860
+That is another packet from the re-act team re-act itself kind of is the logic we need for creating
+
+61
+00:04:37,860 --> 00:04:39,680
+these re-act components.
+
+62
+00:04:39,690 --> 00:04:46,530
+I told you that re-act is all about components re-act arm is then about rendering these components to
+
+63
+00:04:46,530 --> 00:04:50,980
+the real Daun with these two packages added We're almost there.
+
+64
+00:04:51,030 --> 00:04:57,570
+But re-act use a special javascript syntax and a lot of next generation javascript features all come
+
+65
+00:04:57,570 --> 00:05:03,030
+back to this later in the course I'll have a whole module where I introduce you to the most important
+
+66
+00:05:03,030 --> 00:05:05,410
+next gen features reac users.
+
+67
+00:05:05,790 --> 00:05:13,320
+So to unlock the usage of these features and the special syntax in the javascript preprocessor dropdown
+
+68
+00:05:13,560 --> 00:05:15,170
+you have to just babble.
+
+69
+00:05:15,270 --> 00:05:21,330
+That's simply a tool which compiles the next generation javascript code you're writing here to code
+
+70
+00:05:21,420 --> 00:05:25,750
+that runs fine in the browser so that we write code with all features we want.
+
+71
+00:05:25,830 --> 00:05:28,450
+But ship code that works in the browser.
+
+72
+00:05:28,770 --> 00:05:34,680
+And with that you can click save and close and now we can start writing our re-act app here in the javascript
+
+73
+00:05:34,680 --> 00:05:35,430
+section.
+
+74
+00:05:35,430 --> 00:05:36,690
+So why don't we do that.
+
+75
+00:05:36,990 --> 00:05:43,250
+Let's create a re-act component so that we have a reusable custom HVM l element.
+
+76
+00:05:43,410 --> 00:05:49,400
+We can use instead of repeating this HVM all code here on the left in its most basic form and you're
+
+77
+00:05:49,410 --> 00:05:55,710
+going to learn about a different form in this course to its most basic form a re-act component is just
+
+78
+00:05:55,770 --> 00:06:01,140
+a function so we can't create a new function and maybe name this person.
+
+79
+00:06:01,290 --> 00:06:08,880
+Make sure it starts with a capital P is required to use it correctly with re-act this person component
+
+80
+00:06:09,270 --> 00:06:13,100
+is a normal function but it has to return decode.
+
+81
+00:06:13,100 --> 00:06:20,320
+You actually want to render to the Dom and here re-act uses a special syntax which is called J as x.
+
+82
+00:06:20,500 --> 00:06:25,680
+I'm using parentheses here to be able to write or to return some multi-line code.
+
+83
+00:06:26,040 --> 00:06:32,190
+And now I'm going to copy the code here from the left and paste it into my return statement here.
+
+84
+00:06:32,400 --> 00:06:35,670
+And this certainly looks strange No it looks like h tim l.
+
+85
+00:06:35,760 --> 00:06:43,860
+In javascript which wouldn't work normally and it wouldn't if we hadn't added Batal here as a preprocessor
+
+86
+00:06:44,520 --> 00:06:50,880
+Balal if configured correctly which it automatically is here allows us to use this special index which
+
+87
+00:06:50,880 --> 00:06:57,550
+looks like H.T. mail but which isn't and I will dive deeper into that syntax in the next course modules.
+
+88
+00:06:57,690 --> 00:07:01,420
+It's called Deus Ex and it's just syntactical sugar.
+
+89
+00:07:01,530 --> 00:07:06,060
+Behind the scenes this gets compiled to normal Javascript code.
+
+90
+00:07:06,060 --> 00:07:11,450
+We can use it here though to have an easier time writing what we actually want to render.
+
+91
+00:07:11,640 --> 00:07:16,750
+Fine so now we got that function and I said the disease re-act component.
+
+92
+00:07:17,010 --> 00:07:21,940
+But of course right now it's just a function to turn this into a re-act component.
+
+93
+00:07:21,960 --> 00:07:26,220
+We actually have to use react to render it to the screen.
+
+94
+00:07:26,460 --> 00:07:33,600
+So I'll get rid of my purse and you're on the left and instead are at a new div year and I'll give it
+
+95
+00:07:33,600 --> 00:07:36,560
+an idea of let's say p.
+
+96
+00:07:36,710 --> 00:07:39,440
+You can choose any ID you want though.
+
+97
+00:07:39,560 --> 00:07:45,430
+Now do you react package we imported is responsible for correctly parsing days code.
+
+98
+00:07:45,450 --> 00:07:47,450
+Here is GSX code.
+
+99
+00:07:47,660 --> 00:07:52,620
+The Obert package we imported was re-act dorm if you remember.
+
+100
+00:07:52,670 --> 00:07:55,910
+You can always check your on the gear I can react on.
+
+101
+00:07:56,090 --> 00:08:02,980
+This actually exposes an object re-act Dom written like that with Dom all being capital characters which
+
+102
+00:08:02,990 --> 00:08:05,000
+has a render method.
+
+103
+00:08:05,000 --> 00:08:14,700
+This method allows us to render a javascript function as a component to the real Dom and that treat
+
+104
+00:08:14,710 --> 00:08:18,960
+it as a component part is exactly what Riak takes care about.
+
+105
+00:08:19,460 --> 00:08:23,990
+We can then render this function but not by referencing it like this.
+
+106
+00:08:24,080 --> 00:08:32,000
+But by actually turning it into a HVM element again behind the scenes using this GSX syntax which is
+
+107
+00:08:32,000 --> 00:08:33,620
+understood by react.
+
+108
+00:08:34,040 --> 00:08:42,400
+So I write this as my custom self-closing HVM l element and render then takes another argument where
+
+109
+00:08:42,410 --> 00:08:45,220
+I specify where to render this there.
+
+110
+00:08:45,250 --> 00:08:48,860
+I reach up to the document and it can use a query selector.
+
+111
+00:08:48,860 --> 00:08:56,830
+So normal javascript code to select any element with the ID P1 and that again is normal Javascript code.
+
+112
+00:08:56,880 --> 00:08:59,010
+The normal query selector.
+
+113
+00:08:59,510 --> 00:09:09,650
+With that I'm telling re-act that I want to render this function a person component in displays here
+
+114
+00:09:09,650 --> 00:09:12,100
+on the left and it does.
+
+115
+00:09:12,320 --> 00:09:19,340
+Now the styling is lost because class actually is a key word in javascript so react touristas into class
+
+116
+00:09:19,340 --> 00:09:22,730
+name and that's the best proof that this looks like H-G.
+
+117
+00:09:22,760 --> 00:09:23,480
+But isn't.
+
+118
+00:09:23,540 --> 00:09:30,350
+It uses a custom index which in 99 percent of the cases is like HGL But behind the scenes it's transformed
+
+119
+00:09:30,410 --> 00:09:31,410
+javascript.
+
+120
+00:09:31,880 --> 00:09:39,800
+And now you see we have our person class here again Max treated as a custom component which we can all
+
+121
+00:09:39,890 --> 00:09:47,000
+verify about the fact that our inline block stylin here is kind of ignored because we're wrapping this
+
+122
+00:09:47,000 --> 00:09:50,780
+in a custom element which is treated as a block statement.
+
+123
+00:09:50,780 --> 00:09:53,050
+Now I'll dive into styling in those cores.
+
+124
+00:09:53,120 --> 00:09:58,320
+For now let's just be happy that we got our component rendered here.
+
+125
+00:09:58,580 --> 00:10:00,450
+It's not really reusable though.
+
+126
+00:10:00,590 --> 00:10:10,450
+If I had a second hook in my H.T. mouth fall here in my age you will part let's say with ITP too.
+
+127
+00:10:10,490 --> 00:10:14,480
+And I wanted to render a different component a different person.
+
+128
+00:10:14,780 --> 00:10:19,430
+I wouldn't have to hard code the values into that and actually create a new component.
+
+129
+00:10:19,430 --> 00:10:26,150
+The great thing about react and why components are so awesome and save us a lot of time is that we can
+
+130
+00:10:26,150 --> 00:10:30,060
+configure them dynamically as we need them.
+
+131
+00:10:30,120 --> 00:10:36,920
+So here what I'll do is all actually add an argument to this person function which named props.
+
+132
+00:10:36,950 --> 00:10:42,950
+You can choose any name you want but the concept I'm using here is called prop's react automatically
+
+133
+00:10:42,950 --> 00:10:48,830
+gives me an argument in that function I turned into a component with this syntax down here with the
+
+134
+00:10:48,830 --> 00:10:57,140
+person J is X code and Propp simply contains all the attributes I add to my own component.
+
+135
+00:10:57,140 --> 00:11:00,320
+So I could add name Max and age.
+
+136
+00:11:00,530 --> 00:11:03,720
+Let's say twenty eight like this.
+
+137
+00:11:03,900 --> 00:11:08,820
+If I do this now we can output this in our prison component.
+
+138
+00:11:08,820 --> 00:11:12,130
+We just need to dynamically accessed this prop's element.
+
+139
+00:11:12,150 --> 00:11:18,600
+This prompts argument we output dynamic content and react with Cauley Brace's opening closing and only
+
+140
+00:11:18,600 --> 00:11:19,190
+one pair.
+
+141
+00:11:19,200 --> 00:11:22,540
+No double curly braces only one pair of curly braces.
+
+142
+00:11:22,860 --> 00:11:30,540
+And then we reach out to props and then Daut name to get this name attribute their past and prop's age
+
+143
+00:11:30,660 --> 00:11:37,710
+to output that age propertied past the prop's age and now we're using the properties the attributes
+
+144
+00:11:37,830 --> 00:11:44,820
+we're passing to our own component and that's pretty cool because now if we repeat it does react darm
+
+145
+00:11:44,820 --> 00:11:48,010
+render a call here for P2.
+
+146
+00:11:48,150 --> 00:11:51,510
+So make sure to exchange isn't the second query selector.
+
+147
+00:11:51,900 --> 00:11:59,370
+We can pass different props to death component like Manue and 20:9 and now both components used the
+
+148
+00:11:59,370 --> 00:12:01,010
+same base as you can see.
+
+149
+00:12:01,110 --> 00:12:07,140
+They use the same function which is turned into a component by react but really taking advantage of
+
+150
+00:12:07,140 --> 00:12:14,940
+the component concept because we only wrote the HMO code once and now we can reuse it over and over
+
+151
+00:12:14,940 --> 00:12:15,580
+again.
+
+152
+00:12:15,720 --> 00:12:19,810
+And I bet you can see the potential of this in very big applications.
+
+153
+00:12:19,890 --> 00:12:26,720
+You can compose the entire application of reusable pieces and this component isn't even using any logic.
+
+154
+00:12:26,850 --> 00:12:32,600
+It doesn't listen to clicks or stuff like that in apps such as the app we build in this course.
+
+155
+00:12:32,730 --> 00:12:34,160
+We will of course do that.
+
+156
+00:12:34,200 --> 00:12:41,340
+We will append our own logic to our components and then we have small reusable maintainable and easy
+
+157
+00:12:41,340 --> 00:12:48,290
+to manage pieces with their own logic contained in them which we can use anywhere to build amazing applications.
+
+158
+00:12:48,300 --> 00:12:54,690
+That's the idea behind react and that is why it's so great and why does component concept is so great.
+
+159
+00:12:54,690 --> 00:12:56,700
+Now let me do one more thing though.
+
+160
+00:12:56,790 --> 00:12:59,670
+Right now I'm calling react on rendered twice.
+
+161
+00:12:59,670 --> 00:13:04,440
+There's nothing wrong with that but actually we can also do this a bit differently.
+
+162
+00:13:04,440 --> 00:13:10,050
+We couldn't have one if you're in the HMO part which has an idea of app or root.
+
+163
+00:13:10,110 --> 00:13:12,640
+Doesn't matter any idea of your choice.
+
+164
+00:13:12,750 --> 00:13:18,840
+Now get rid of the secondary act on render call and I will add a variable here.
+
+165
+00:13:18,960 --> 00:13:22,520
+This variable all name app but this name is also up to you.
+
+166
+00:13:22,620 --> 00:13:25,920
+But this very opposite will hold some j as X code.
+
+167
+00:13:25,920 --> 00:13:31,060
+I am just wrapping this in parentheses so that I can write this code over multiple lines.
+
+168
+00:13:31,080 --> 00:13:43,710
+Now here what I can do is I can now output my person component as I did before we have to wrap it with
+
+169
+00:13:43,710 --> 00:13:50,580
+a dip though because GSX has the requirement of only having one root element so adjacent elements are
+
+170
+00:13:50,580 --> 00:13:51,650
+not allowed.
+
+171
+00:13:51,660 --> 00:13:56,430
+I will also talk about this in of course though there are ways around this limitation.
+
+172
+00:13:56,460 --> 00:14:04,560
+So now I added a two person component usages to my app variable here and now is simply mount the app
+
+173
+00:14:04,800 --> 00:14:14,070
+variable in the place of this element with the ID app which I select by adjusting my query selector.
+
+174
+00:14:14,070 --> 00:14:18,070
+And now you see I get the two elements now next to each other.
+
+175
+00:14:18,300 --> 00:14:23,160
+Because now they're rendered in the same hook in the same element.
+
+176
+00:14:23,160 --> 00:14:32,070
+So to say in the same depth and this method of only having one hook one react on render a call and then
+
+177
+00:14:32,070 --> 00:14:38,190
+creating a up there with nested components is far more popular way of creating re-act apps.
+
+178
+00:14:38,220 --> 00:14:43,120
+It is the way I will use in this course and in the next lecture I will talk about this.
+
+179
+00:14:43,160 --> 00:14:46,910
+As the alternative with multiple react on render recalls.
+
+180
+00:14:46,960 --> 00:14:52,010
+But be aware this is the way you will see far more often with this approach.
+
+181
+00:14:52,050 --> 00:14:56,060
+You create so-called single page applications.
+
+182
+00:14:56,080 --> 00:14:59,110
+Now this is our first re-act app.
+
+183
+00:14:59,130 --> 00:15:01,290
+Now let's dive deeper into reactor.
+
+184
+00:15:01,300 --> 00:15:05,160
+Let's continue with the Chloris and really get started with re-act.
+

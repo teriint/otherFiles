@@ -1,0 +1,80 @@
+1
+00:00:02,430 --> 00:00:06,810
+Welcome to discourse about react it's great to have you on board.
+
+2
+00:00:06,810 --> 00:00:09,920
+My name is on Schwartz Molla and I'm a freelance web developer.
+
+3
+00:00:09,960 --> 00:00:16,500
+Andrew yeck developer I worked with re-act a lot and I can tell you it's an amazing library for creating
+
+4
+00:00:16,500 --> 00:00:24,360
+highly reactive and super fast javascript driven web applications the javascript driven part is especially
+
+5
+00:00:24,360 --> 00:00:31,020
+important because since Riak is a javascript library it's of course about writing your web apps in javascript
+
+6
+00:00:31,650 --> 00:00:38,250
+and that in turn is amazing because since javascript runs in the browser it allows you to create superfast
+
+7
+00:00:38,340 --> 00:00:40,880
+web apps that feel like mobile apps.
+
+8
+00:00:41,040 --> 00:00:44,190
+Users don't have to wait for Peytral loads.
+
+9
+00:00:44,310 --> 00:00:51,060
+Now re-act is probably the most popular javascript library you can learn these days.
+
+10
+00:00:51,060 --> 00:00:56,940
+And for a good reason you will learn all of its core features from this course and way more than that
+
+11
+00:00:57,480 --> 00:01:01,960
+you will learn what reactor's about how it works and why you might want to use it.
+
+12
+00:01:01,980 --> 00:01:07,620
+You will learn how to build components would react how to use read X for better state management how
+
+13
+00:01:07,620 --> 00:01:13,450
+to use d react router and you'll not just learned as simple projects or theory.
+
+14
+00:01:13,610 --> 00:01:18,230
+No we will build an entire re-act application throughout this course.
+
+15
+00:01:18,270 --> 00:01:24,360
+The Bergere Boulder which is an amazing application utilizing all the concepts you learn in this course
+
+16
+00:01:24,690 --> 00:01:30,410
+so that you have a really solid understanding of all the concepts taught throughout this course.
+
+17
+00:01:30,600 --> 00:01:36,450
+By the end of the Course you'll therefore have way more than just a solid understanding of react and
+
+18
+00:01:36,450 --> 00:01:43,230
+you'll be able to dive deeper into more challenging projects and apply for reactive Alper chops or become
+
+19
+00:01:43,230 --> 00:01:44,370
+a Riak developer.
+
+20
+00:01:44,400 --> 00:01:47,250
+As a freelancer Whatever your goal is.
+

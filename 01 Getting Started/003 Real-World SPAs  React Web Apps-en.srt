@@ -1,0 +1,132 @@
+1
+00:00:02,250 --> 00:00:08,470
+So in the last lecture I explained Ted reactor's all about components and that components are awesome.
+
+2
+00:00:08,700 --> 00:00:12,760
+That's actually Cedar's on a real web page here's react.
+
+3
+00:00:12,810 --> 00:00:15,280
+J.S. dot org which is the official web page.
+
+4
+00:00:15,310 --> 00:00:17,030
+Or do you react to them.
+
+5
+00:00:17,250 --> 00:00:21,550
+And if we have a look at it it is actually built with re-act of course.
+
+6
+00:00:21,570 --> 00:00:27,530
+This looks like a normal web page and it is of course but we can split this up into components.
+
+7
+00:00:27,540 --> 00:00:33,380
+We've got this hattery component in there we get these single navigation item components.
+
+8
+00:00:33,390 --> 00:00:42,030
+We got this starting image call to action components here and we got all our elements here down here
+
+9
+00:00:42,030 --> 00:00:49,860
+where they advertise react and what it is about we see more components year like DS emerge code snippet
+
+10
+00:00:49,860 --> 00:00:53,040
+components year with some descriptions to the left of it.
+
+11
+00:00:53,130 --> 00:00:59,400
+All these things are basically building blocks which we can of course easily consider as reusable pieces
+
+12
+00:00:59,610 --> 00:01:02,880
+and actually are reusing this aliments year.
+
+13
+00:01:02,880 --> 00:01:09,890
+We got one element here and then the same element with different content being used below it.
+
+14
+00:01:09,900 --> 00:01:15,810
+Now of course you can hard code all that with just H-G mail javascript and C-s else but then you will
+
+15
+00:01:15,810 --> 00:01:22,050
+have to repeat your code over and over again here with components you build your own h m l elements
+
+16
+00:01:22,050 --> 00:01:24,970
+so to say and then you just reuse that element.
+
+17
+00:01:25,110 --> 00:01:31,560
+And behind the scenes does H Tim L element has all this content already inside of it and we'll see this
+
+18
+00:01:31,560 --> 00:01:33,680
+in detail in a second.
+
+19
+00:01:34,030 --> 00:01:40,080
+And that's a good example would be you would have me here on the page where I searched for the UK as
+
+20
+00:01:40,170 --> 00:01:42,130
+an alternative to react.
+
+21
+00:01:42,150 --> 00:01:44,880
+There we see we get a lot of components too.
+
+22
+00:01:44,900 --> 00:01:47,830
+We got that whole hador with the search bar component.
+
+23
+00:01:47,880 --> 00:01:53,580
+Then we got the search result summary component here where it also allows us to filter the search results
+
+24
+00:01:54,090 --> 00:01:56,290
+and then the search results themselves.
+
+25
+00:01:56,430 --> 00:01:59,540
+We got really used list item components here.
+
+26
+00:01:59,670 --> 00:02:02,060
+Each of them has an image and a different title.
+
+27
+00:02:02,250 --> 00:02:04,680
+But in the core they all are the same.
+
+28
+00:02:04,680 --> 00:02:06,390
+They all have the same structure.
+
+29
+00:02:06,510 --> 00:02:13,440
+And you do me also uses a javascript framework to achieve this and to have an easier time developing.
+
+30
+00:02:13,560 --> 00:02:14,760
+And that's important.
+
+31
+00:02:14,850 --> 00:02:16,820
+Maintaining and updating this page.
+
+32
+00:02:16,950 --> 00:02:22,970
+So does why components are awesome and why we as a developer probably want to use components and that
+
+33
+00:02:22,970 --> 00:02:25,680
+is why we act is all about components.
+
